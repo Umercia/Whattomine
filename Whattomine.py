@@ -7,15 +7,9 @@
 #          - No Bolean type in SQL,  "BIT" instead (1/0)
 #          - date in a nice format, see below "s_time" variable
 
-
-# from urllib.request import urlopen
-import urllib.parse
-import urllib.request
 import urllib.parse
 import json   #json library
-from urllib.request import urlopen
 from urllib.request import Request, urlopen
-
 
 #fname = "coins.json"
 #try :
