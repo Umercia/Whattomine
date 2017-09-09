@@ -1,5 +1,5 @@
 # collect data from whattomine website (https://whattomine.com/coins.json)
-# WHATSNEW:
+# WHATS NEW:
 #          - in SQL use the float or real data types only if the precision provided by decimal
 #            (up to 38 digits) is insufficient.
 #          - in case of a server request (access) is forbiden, try to Replace the default header "python urllib/3.3.0" (the serveur might filter the python bots)
