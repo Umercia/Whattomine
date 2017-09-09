@@ -25,7 +25,7 @@ from urllib.request import Request, urlopen
 req = Request('http://whattomine.com/coins.json', headers={'User-Agent': 'Mozilla/5.0'})
 fh = urlopen(req)
 
-s_json = fh.read() # one string format
+s_json = fh.read().decode() # one string format
 tree = json.loads(s_json) # tree object
 
 
