@@ -8,7 +8,7 @@
 #          - date in a nice format, see below "s_time" variable
 
 import urllib.parse
-import json   #json library.
+import json   #json library
 from urllib.request import Request, urlopen
 
 #fname = "coins.json"
