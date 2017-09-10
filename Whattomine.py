@@ -26,7 +26,7 @@ req = Request('http://whattomine.com/coins.json', headers={'User-Agent': 'Mozill
 fh = urlopen(req)
 
 s_json = fh.read().decode() # one string format
-tree = json.loads(s_json) # tree object
+tree = json.loads(s_json) # tree object.
 
 
 # 2. Update local DB -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
